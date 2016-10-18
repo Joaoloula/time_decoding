@@ -1,3 +1,5 @@
 time_decoding.egg-info/
 build/
 dist/
+*.swp
+*.pyc
