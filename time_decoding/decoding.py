@@ -163,7 +163,7 @@ def design_matrix(n_scans, tr, onsets, conditions, durations=None,
     frame_times = np.arange(n_scans) * tr
     paradigm = {}
     paradigm['onset'] = onsets
-    paradigm['name'] = conditions
+    paradigm['trial_type'] = conditions
     if durations is not None:
         paradigm['duration'] = durations
     paradigm = pd.DataFrame(paradigm)
